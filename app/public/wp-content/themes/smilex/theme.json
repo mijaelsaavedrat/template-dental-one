@@ -1,0 +1,190 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#edf8ff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#091d40",
+					"name": "Contrash",
+					"slug": "contrash"
+				},
+				{
+					"color": "#4F4F4F",
+					"name": "Text",
+					"slug": "text"
+				},
+				{
+					"color": "#0077CF",
+					"name": "Button",
+					"slug": "button"
+				},
+				{
+					"color": "#0093fd",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#41d4c9",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#2f5a9b",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1140px",
+			"wideSize": "1280px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [],
+					"fontFamily": "\"Playfair Display\"",
+					"name": "Playfair Display",
+					"slug": "playfair-display"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-700-normal.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "275",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-275-normal.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins/poppins-400-normal.ttf"
+							]
+						}
+					],
+					"fontFamily": "Poppins",
+					"name": "Poppins",
+					"slug": "poppins"
+				}
+			]
+		}
+	},
+	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--text)"
+		},
+		"css": ".card{\nborder-radius: 20px;\n}\n.or-color{\ncolor:white !important\n}",
+		"elements": {
+			"button": {
+				"color": {
+					"gradient": "linear-gradient(180deg,rgb(0,147,253) 0%,rgb(0,119,205) 100%)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
+					"fontSize": "20px",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"letterSpacing": "0.2px"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair-display)",
+					"fontSize": "50px",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"letterSpacing": "0.2px",
+					"lineHeight": "1.1"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair-display)",
+					"fontSize": "50px",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"letterSpacing": "0.2px",
+					"lineHeight": "1.1"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--playfair-display)",
+					"fontSize": "26px",
+					"fontStyle": "normal",
+					"fontWeight": "700",
+					"letterSpacing": "0.2px",
+					"lineHeight": "1.2"
+				}
+			},
+			"h4": {
+				"color": {
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
+					"fontSize": "var(--wp--preset--font-size--medium)",
+					"fontStyle": "normal",
+					"fontWeight": "400",
+					"letterSpacing": "1px",
+					"lineHeight": "0"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
+					"fontSize": "20px",
+					"fontStyle": "normal",
+					"fontWeight": "500",
+					"letterSpacing": "0.2px"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--contrash)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--text)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "24px"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)",
+			"fontSize": "16px",
+			"fontStyle": "normal",
+			"fontWeight": "300",
+			"letterSpacing": "0.2px",
+			"lineHeight": "1.5"
+		}
+	},
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json"
+}
