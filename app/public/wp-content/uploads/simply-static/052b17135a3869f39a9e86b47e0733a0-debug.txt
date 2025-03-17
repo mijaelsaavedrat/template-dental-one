@@ -1,0 +1,242 @@
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:97] Starting a job; no job is presently running
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:98] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:116] Pushing first task to queue: setup
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:172] Current task: setup
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:182] Performing task: setup
+[2025-03-17 20:27:03] [class-ss-task.php:44] Status message: [setup] Setting up
+[2025-03-17 20:27:03] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223\
+[2025-03-17 20:27:03] [class-ss-setup-task.php:72] Adding origin URL to queue: http://test-landing-one.local/
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:204] We've found our next task: fetch_urls
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-17 20:27:03] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-17 20:27:03] [class-ss-fetch-urls-task.php:66] Total pages: 1; Pages remaining: 1
+[2025-03-17 20:27:03] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/
+[2025-03-17 20:27:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-03-17 20:27:03] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d88597b02c0-kS3BJb.tmp
+[2025-03-17 20:27:03] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/?simply_static_page=1
+[2025-03-17 20:27:03] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/?simply_static_page=1
+[2025-03-17 20:27:08] [class-ss-url-fetcher.php:103] Filesize: 73385 bytes
+[2025-03-17 20:27:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-03-17 20:27:08] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-03-17 20:27:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d88597b02c0-kS3BJb.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/index.html
+[2025-03-17 20:27:09] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:09] [class-ss-fetch-urls-task.php:155] Adding 16 URLs to the queue
+[2025-03-17 20:27:09] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:09] [class-ss-page.php:119] Checking Content Identical:f3b3370e5d21c9cb200beeb20500db327a597ed0===. Value: FALSE
+[2025-03-17 20:27:09] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2025-03-17 20:27:09] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-17 20:27:09] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-17 20:27:09] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-17 20:27:09] [class-ss-fetch-urls-task.php:66] Total pages: 16; Pages remaining: 15
+[2025-03-17 20:27:09] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/pagina-ejemplo/
+[2025-03-17 20:27:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 16
+[2025-03-17 20:27:09] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d8859dcfd8b-P2a2oU.tmp
+[2025-03-17 20:27:09] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/pagina-ejemplo/?simply_static_page=2
+[2025-03-17 20:27:09] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/pagina-ejemplo/?simply_static_page=2
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:107] object(WP_Error)#904 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30008 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/material-symbols-call.png
+[2025-03-17 20:27:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 16
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bbd9650-A0d58b.tmp
+[2025-03-17 20:27:39] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/images/material-symbols-call.png?simply_static_page=3
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/material-symbols-call.png?simply_static_page=3
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:103] Filesize: 1311 bytes
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/images/material-symbols-call.png
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bbd9650-A0d58b.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/images/material-symbols-call.png
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:39] [class-ss-page.php:119] Checking Content Identical:78a0e54e79eb8e0e029673797b8391123242a5e4===. Value: FALSE
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/material-symbols-location-on-outline.png
+[2025-03-17 20:27:39] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 16
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bbe6b90-UlJqD3.tmp
+[2025-03-17 20:27:39] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/images/material-symbols-location-on-outline.png?simply_static_page=4
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/material-symbols-location-on-outline.png?simply_static_page=4
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:103] Filesize: 869 bytes
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/images/material-symbols-location-on-outline.png
+[2025-03-17 20:27:39] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bbe6b90-UlJqD3.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/images/material-symbols-location-on-outline.png
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:39] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:01339feff22f830ef692deeab98c7bd26a26506d===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/mdi-light-phone.png
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc04dc6-Lq4Nef.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/images/mdi-light-phone.png?simply_static_page=5
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/mdi-light-phone.png?simply_static_page=5
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 1584 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/images/mdi-light-phone.png
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc04dc6-Lq4Nef.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/images/mdi-light-phone.png
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:210b701fa3d5e57a66a168b1243e3f39a5e74df9===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/weui-time-outlined.png
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc25ddd-ul0s9I.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/images/weui-time-outlined.png?simply_static_page=6
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/images/weui-time-outlined.png?simply_static_page=6
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 1595 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/images/weui-time-outlined.png
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc25ddd-ul0s9I.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/images/weui-time-outlined.png
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:224cbbe480fa5a967f52d6330ffa1debc6763fbb===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc3870b-IAiusq.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=7
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?simply_static_page=7
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 3300 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc3870b-IAiusq.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:b27ba805d3b9118edfd523f01fd6e84229d52ffd===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/feed/
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://test-landing-one.local/feed/
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/comments/feed/
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://test-landing-one.local/comments/feed/
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-includes/blocks/navigation/style.min.css
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc5458e-6OSRS7.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=10
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-includes/blocks/navigation/style.min.css?simply_static_page=10
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 16384 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/blocks/navigation/style.min.css
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc5458e-6OSRS7.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-includes/blocks/navigation/style.min.css
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:da66b61dcc5204277eb7846b9dce55b2e7d58a42===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-json/
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://test-landing-one.local/wp-json/
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/xmlrpc.php
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:76] Excludable found: URL: http://test-landing-one.local/xmlrpc.php
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:86] Skipping URL because it is no-save and no-follow
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc82c48-41HBBG.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=13
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-includes/js/dist/script-modules/interactivity/index.min.js?simply_static_page=13
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 36946 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc82c48-41HBBG.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:2a62fbfe456849045bc616b95803f580d9fe448a===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-700-normal.ttf
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc8ec7e-tTo30s.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-700-normal.ttf?simply_static_page=14
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-700-normal.ttf?simply_static_page=14
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 153944 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/fonts/poppins/poppins-700-normal.ttf
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc8ec7e-tTo30s.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/fonts/poppins/poppins-700-normal.ttf
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:875cf0cecd647bcf22e79d633d868c1b1ec98dfa===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-275-normal.ttf
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bc9ab1f-b6ZlVr.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-275-normal.ttf?simply_static_page=15
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-275-normal.ttf?simply_static_page=15
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 161456 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/fonts/poppins/poppins-275-normal.ttf
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bc9ab1f-b6ZlVr.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/fonts/poppins/poppins-275-normal.ttf
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:85af6582a7e6155917c605f9d3fed68c02b23b06===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:69] URL: http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-400-normal.ttf
+[2025-03-17 20:27:40] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 16
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:80] URL is not being excluded
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/67d885bca7253-YlRxuX.tmp
+[2025-03-17 20:27:40] [class-ss-page-handler.php:38] URL Prepared:http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-400-normal.ttf?simply_static_page=16
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:251] Fetching URL: http://test-landing-one.local/wp-content/themes/smilex/assets/fonts/poppins/poppins-400-normal.ttf?simply_static_page=16
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:103] Filesize: 158240 bytes
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/smilex/assets/fonts/poppins/poppins-400-normal.ttf
+[2025-03-17 20:27:40] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/67d885bca7253-YlRxuX.tmp to C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223/wp-content/themes/smilex/assets/fonts/poppins/poppins-400-normal.ttf
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:148] Extracting URLs and replacing URLs in the static file
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:155] Adding 0 URLs to the queue
+[2025-03-17 20:27:40] [class-ss-fetch-urls-task.php:166] We're saving this URL; keeping the static file
+[2025-03-17 20:27:40] [class-ss-page.php:119] Checking Content Identical:fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00===. Value: FALSE
+[2025-03-17 20:27:40] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 16 pages/files
+[2025-03-17 20:27:40] [class-ss-archive-creation-job.php:212] We're not done with the fetch_urls task yet
+[2025-03-17 20:27:45] [class-ss-archive-creation-job.php:172] Current task: fetch_urls
+[2025-03-17 20:27:45] [class-ss-archive-creation-job.php:182] Performing task: fetch_urls
+[2025-03-17 20:27:45] [class-ss-fetch-urls-task.php:66] Total pages: 16; Pages remaining: 0
+[2025-03-17 20:27:45] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 16 of 16 pages/files
+[2025-03-17 20:27:45] [class-ss-archive-creation-job.php:204] We've found our next task: transfer_files_locally
+[2025-03-17 20:27:45] [class-ss-archive-creation-job.php:234] Cleaning on first run for task: transfer_files_locally
+[2025-03-17 20:27:45] [class-ss-archive-creation-job.php:172] Current task: transfer_files_locally
+[2025-03-17 20:27:45] [class-ss-archive-creation-job.php:182] Performing task: transfer_files_locally
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/images/material-symbols-call.png
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/images
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/images/material-symbols-location-on-outline.png
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/images
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/images/mdi-light-phone.png
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/images
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/images/weui-time-outlined.png
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/images
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/script-modules/block-library/navigation/view.min.js
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-includes/js/dist/script-modules/block-library/navigation
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/blocks/navigation/style.min.css
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-includes/blocks/navigation
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/js/dist/script-modules/interactivity/index.min.js
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-includes/js/dist/script-modules/interactivity
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/fonts/poppins/poppins-700-normal.ttf
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/fonts/poppins
+[2025-03-17 20:27:45] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/fonts/poppins/poppins-275-normal.ttf
+[2025-03-17 20:27:46] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/fonts/poppins
+[2025-03-17 20:27:46] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/smilex/assets/fonts/poppins/poppins-400-normal.ttf
+[2025-03-17 20:27:46] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/msaaveto/Local Sites/test-landing-one/wp-content/themes/smilex/assets/fonts/poppins
+[2025-03-17 20:27:46] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:11. Processed Pages: 11
+[2025-03-17 20:27:46] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 11 of 11 files
+[2025-03-17 20:27:46] [trait-can-process-pages.php:114] Total pages: 11; Pages remaining: 0
+[2025-03-17 20:27:46] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-03-17 20:27:46] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\Users\msaaveto\Local Sites\test-landing-one\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1742243223\404\index.html
+[2025-03-17 20:27:46] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://mijaelsaavedrat.github.io/template-dental-one/" target="_blank">https://mijaelsaavedrat.github.io/template-dental-one/</a>
+[2025-03-17 20:27:46] [class-ss-archive-creation-job.php:204] We've found our next task: wrapup
+[2025-03-17 20:27:46] [class-ss-archive-creation-job.php:172] Current task: wrapup
+[2025-03-17 20:27:46] [class-ss-archive-creation-job.php:182] Performing task: wrapup
+[2025-03-17 20:27:46] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-03-17 20:27:46] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2025-03-17 20:27:46] [class-ss-archive-creation-job.php:199] This task is done and there are no more tasks, time to complete the job
+[2025-03-17 20:27:46] [class-ss-archive-creation-job.php:244] Completing the job
+[2025-03-17 20:27:46] [class-ss-archive-creation-job.php:371] Status message: [done] Done! Finished in 00:00:43
